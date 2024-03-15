@@ -7,7 +7,7 @@ const App = () => {
     name: "Vishal Pulikottil",
     timeInMinutes: 15,
     favorite: true,
-    progress: 75
+    progress: 50
 
   }
 

@@ -23,7 +23,7 @@ const Card = ({ data }) => {
       <div className="  ml-3 mr-0 pr-0 w-4/5 rounded-md bg-sky-50 flex justify-between ">
         <div  >
           <div className='bg-white px-3 inline-block rounded-md border border-gray-100 mt-6  mobile:text-xs large:text-md ' ><p className='font-bold text-orange-500'>After Effects</p></div>
-          <div className="w-2.5/3 font-bold mb-2 text-blue-600  mobile:text-sm large:text-3xl cursor-pointer hover:cursor-pointer   mt-3 ">
+          <div className="w-2.5/3 font-bold mb-2 text-blue-600  mobile:text-xs large:text-3xl cursor-pointer hover:cursor-pointer   mt-3 ">
 
             {data.title}
           </div>
