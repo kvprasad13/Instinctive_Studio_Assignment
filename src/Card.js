@@ -27,9 +27,9 @@ const Card = ({ data }) => {
 
             {data.title}
           </div>
-          <div className=' mobile:block xs:flex  xs:justify-start  xs:mt-6 text-blue-500 font-semibold  mobile:text-xs text-sm  '>
-            <div className='flex items-center xs:mr-3 ml-0'> <FaRegCircleUser size={15} className='m-0 p-0 text-blue-500 mr-1' /><p>{data.name}</p></div>
-            <div className='flex items-center xs:ml-3 ' > <TbClockHour3 size={18} className='m-0 p-0  text-blue-500 mr-1' /><p>{`${data.timeInMinutes}minutes`} </p></div>
+          <div className=' mobile:block md:flex md: justify-start  md:mt-6 text-blue-500 font-semibold  mobile:text-xs md:text-sm  '>
+            <div className='flex items-center md:mr-3 ml-0'> <FaRegCircleUser size={15} className='m-0 p-0 text-blue-500 mr-1' /><p>{data.name}</p></div>
+            <div className='flex items-center md:ml-3 ' > <TbClockHour3 size={18} className='m-0 p-0  text-blue-500 mr-1' /><p>{`${data.timeInMinutes}minutes`} </p></div>
           </div>
         </div>
         <div className='mt-0 mr-5 flex justify-end items-start pt-0 '><BsThreeDots size={24} className='text-blue-700 cursor-pointer hover:cursor-pointer' /></div>
